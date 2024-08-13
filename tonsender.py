@@ -64,7 +64,7 @@ async def main():
         for recipient_address in recipient_addresses:
             if USE_API_KEY is True and API_KEY != '':
                 await send_ton_to_address(recipient_address, session)
-                await asyncio.sleep(random.uniform(0.1, 0.3))
+                await asyncio.sleep(random.uniform(0.5, 0.8))
             else:
                 await send_ton_to_address(recipient_address, session)
                 await asyncio.sleep(random.uniform(1, 2))
