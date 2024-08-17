@@ -1,2 +1,3 @@
-tonsdk
-aiohttp
+tonsdk==1.0.15
+aiohttp==3.9.5
+tvm-valuetypes==0.0.12
